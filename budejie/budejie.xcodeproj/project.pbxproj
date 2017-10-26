@@ -18,6 +18,7 @@
 		F02D9D1D1FA1B324004D096F /* HJFriendTrendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D0B1FA1B324004D096F /* HJFriendTrendVC.m */; };
 		F02D9D1E1FA1B324004D096F /* HJMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D111FA1B324004D096F /* HJMeVC.m */; };
 		F02D9D1F1FA1B324004D096F /* HJPublishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D171FA1B324004D096F /* HJPublishVC.m */; };
+		F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D281FA1BCB5004D096F /* HJTabVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		F02D9D121FA1B324004D096F /* HJMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMeVC.h; sourceTree = "<group>"; };
 		F02D9D171FA1B324004D096F /* HJPublishVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPublishVC.m; sourceTree = "<group>"; };
 		F02D9D181FA1B324004D096F /* HJPublishVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPublishVC.h; sourceTree = "<group>"; };
+		F02D9D271FA1BCB5004D096F /* HJTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabVC.h; sourceTree = "<group>"; };
+		F02D9D281FA1BCB5004D096F /* HJTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		F02D9CF81FA1B324004D096F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F02D9D231FA1BC46004D096F /* Main */,
 				F02D9CF91FA1B324004D096F /* Essence(精华) */,
 				F02D9CFF1FA1B324004D096F /* Other */,
 				F02D9D031FA1B324004D096F /* New(新帖) */,
@@ -302,6 +306,39 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F02D9D231FA1BC46004D096F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F02D9D241FA1BC46004D096F /* Controller */,
+				F02D9D251FA1BC46004D096F /* Model */,
+				F02D9D261FA1BC46004D096F /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F02D9D241FA1BC46004D096F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F02D9D271FA1BCB5004D096F /* HJTabVC.h */,
+				F02D9D281FA1BCB5004D096F /* HJTabVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F02D9D251FA1BC46004D096F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F02D9D261FA1BC46004D096F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -328,6 +365,7 @@
 		F02D9CD31FA1B2DF004D096F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HJ;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = hjun;
 				TargetAttributes = {
@@ -380,6 +418,7 @@
 				F02D9D1D1FA1B324004D096F /* HJFriendTrendVC.m in Sources */,
 				F02D9D1C1FA1B324004D096F /* HJNewVC.m in Sources */,
 				F02D9CE31FA1B2DF004D096F /* AppDelegate.m in Sources */,
+				F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */,
 				F02D9D1F1FA1B324004D096F /* HJPublishVC.m in Sources */,
 				F02D9CE01FA1B2DF004D096F /* main.m in Sources */,
 			);

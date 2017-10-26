@@ -7,11 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HJMeVC.h"
-#import "HJNewVC.h"
-#import "HJEssenceVC.h"
-#import "HJPublishVC.h"
-#import "HJFriendTrendVC.h"
+#import "HJTabVC.h"
 @interface AppDelegate ()
 
 @end
@@ -21,30 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    
-    UITabBarController *tabVc = [[UITabBarController alloc]init];
-    self.window.rootViewController = tabVc;
-    
-    HJEssenceVC *essence = [[HJEssenceVC alloc]init];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:essence];
-    [tabVc addChildViewController:nav];
-    
-    HJNewVC *new = [[HJNewVC alloc]init];
-    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:new];
-    [tabVc addChildViewController:nav1];
-    
-    HJPublishVC *publish = [[HJPublishVC alloc]init];
-    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:publish];
-    [tabVc addChildViewController:nav2];
-    
-   HJFriendTrendVC *friendVc = [[HJFriendTrendVC alloc]init];
-   UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:friendVc]
-    ;
-    [tabVc addChildViewController:nav3];
-    
-    HJMeVC *me = [[HJMeVC alloc]init];
-    UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:me];
-    [tabVc addChildViewController:nav4];
+    HJTabVC *tab = [[HJTabVC alloc]init];
+    self.window.rootViewController = tab;
     
     [self.window makeKeyAndVisible];
     
