@@ -19,6 +19,7 @@
 		F02D9D1E1FA1B324004D096F /* HJMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D111FA1B324004D096F /* HJMeVC.m */; };
 		F02D9D1F1FA1B324004D096F /* HJPublishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D171FA1B324004D096F /* HJPublishVC.m */; };
 		F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D281FA1BCB5004D096F /* HJTabVC.m */; };
+		F02D9D2D1FA1BFB6004D096F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		F02D9D181FA1B324004D096F /* HJPublishVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPublishVC.h; sourceTree = "<group>"; };
 		F02D9D271FA1BCB5004D096F /* HJTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabVC.h; sourceTree = "<group>"; };
 		F02D9D281FA1BCB5004D096F /* HJTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabVC.m; sourceTree = "<group>"; };
+		F02D9D2B1FA1BFB6004D096F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +104,11 @@
 			children = (
 				F02D9D231FA1BC46004D096F /* Main */,
 				F02D9CF91FA1B324004D096F /* Essence(精华) */,
-				F02D9CFF1FA1B324004D096F /* Other */,
 				F02D9D031FA1B324004D096F /* New(新帖) */,
 				F02D9D091FA1B324004D096F /* FriendTrend(关注) */,
 				F02D9D0F1FA1B324004D096F /* Me(我) */,
 				F02D9D151FA1B324004D096F /* Publish(发布) */,
+				F02D9CFF1FA1B324004D096F /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 		F02D9CFF1FA1B324004D096F /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				F02D9D2A1FA1BF3F004D096F /* Category */,
 				F02D9D001FA1B324004D096F /* Controller */,
 				F02D9D011FA1B324004D096F /* Model */,
 				F02D9D021FA1B324004D096F /* View */,
@@ -339,6 +343,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F02D9D2A1FA1BF3F004D096F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F02D9D2B1FA1BFB6004D096F /* UIImage+Image.h */,
+				F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -413,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F02D9D1E1FA1B324004D096F /* HJMeVC.m in Sources */,
+				F02D9D2D1FA1BFB6004D096F /* UIImage+Image.m in Sources */,
 				F02D9CEC1FA1B2DF004D096F /* budejie.xcdatamodeld in Sources */,
 				F02D9D1B1FA1B324004D096F /* HJEssenceVC.m in Sources */,
 				F02D9D1D1FA1B324004D096F /* HJFriendTrendVC.m in Sources */,

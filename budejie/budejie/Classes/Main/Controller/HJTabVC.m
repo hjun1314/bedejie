@@ -12,6 +12,8 @@
 #import "HJEssenceVC.h"
 #import "HJPublishVC.h"
 #import "HJFriendTrendVC.h"
+#import "UIImage+Image.h"
+
 @interface HJTabVC ()
 
 @end
@@ -61,30 +63,30 @@
     UINavigationController *nav = self.childViewControllers[0];
     nav.tabBarItem.title = @"精华";
     nav.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
-    nav.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_essence_click_icon"];
+    nav.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_essence_click_icon"];
     
     // 1:新帖
     UINavigationController *nav1 = self.childViewControllers[1];
     nav1.tabBarItem.title = @"新帖";
     nav1.tabBarItem.image = [UIImage imageNamed:@"tabBar_new_icon"];
-    nav1.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_new_click_icon"];
+    nav1.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_new_click_icon"];
     
     // 2:发布
     HJPublishVC *publishVc = self.childViewControllers[2];
     publishVc.tabBarItem.image = [UIImage imageNamed:@"tabBar_publish_icon"];
-    publishVc.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_publish_click_icon"];
+    publishVc.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_publish_click_icon"];
     
     // 3.关注
     UINavigationController *nav3 = self.childViewControllers[3];
     nav3.tabBarItem.title = @"关注";
     nav3.tabBarItem.image = [UIImage imageNamed:@"tabBar_friendTrends_icon"];
-    nav3.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_friendTrends_click_icon"];
+    nav3.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_friendTrends_click_icon"];
     
     // 4.我
     UINavigationController *nav4 = self.childViewControllers[4];
     nav4.tabBarItem.title = @"我";
     nav4.tabBarItem.image = [UIImage imageNamed:@"tabBar_me_icon"];
-    nav4.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_me_click_icon"];
+    nav4.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_me_click_icon"];
     
 }
 
