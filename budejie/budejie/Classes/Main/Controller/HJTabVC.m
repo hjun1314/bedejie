@@ -19,6 +19,23 @@
 @end
 
 @implementation HJTabVC
++ (void)load{
+    // 获取哪个类中UITabBarItem
+
+    UITabBarItem *item = [UITabBarItem appearanceWhenContainedInInstancesOfClasses:@[self]];
+    
+    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
+    attrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+    [item setTitleTextAttributes:attrs forState:UIControlStateSelected];
+    
+    ///设置字体尺寸
+    NSMutableDictionary *attrsN = [NSMutableDictionary dictionary];
+    attrsN[NSFontAttributeName] = [UIFont systemFontOfSize:13.0];
+    [item setTitleTextAttributes:attrsN forState:UIControlStateNormal];
+    
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
