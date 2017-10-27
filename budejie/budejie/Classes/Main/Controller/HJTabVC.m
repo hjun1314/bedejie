@@ -14,6 +14,8 @@
 #import "HJFriendTrendVC.h"
 #import "UIImage+Image.h"
 #import "HJCustormTabBar.h"
+#import "HJNavVC.h"
+
 @interface HJTabVC ()
 
 @end
@@ -54,22 +56,22 @@
 }
 - (void)setupAllChildVC{
     HJEssenceVC *essence = [[HJEssenceVC alloc]init];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:essence];
+    HJNavVC *nav = [[HJNavVC alloc]initWithRootViewController:essence];
     [self addChildViewController:nav];
     
     HJNewVC *new = [[HJNewVC alloc]init];
-    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:new];
+    HJNavVC *nav1 = [[HJNavVC alloc]initWithRootViewController:new];
     [self addChildViewController:nav1];
     
     
     
     HJFriendTrendVC *friendVc = [[HJFriendTrendVC alloc]init];
-    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:friendVc]
+    HJNavVC *nav3 = [[HJNavVC alloc]initWithRootViewController:friendVc]
     ;
     [self addChildViewController:nav3];
     
     HJMeVC *me = [[HJMeVC alloc]init];
-    UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:me];
+    HJNavVC *nav4 = [[HJNavVC alloc]initWithRootViewController:me];
     [self addChildViewController:nav4];
 
 }

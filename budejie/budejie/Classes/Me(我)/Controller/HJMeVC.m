@@ -16,14 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self setupNav];
 }
 
+- (void)setupNav{
+    
+    UIBarButtonItem *lightDay = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-setting-icon"] highlightImage:[UIImage imageNamed:@"mine-setting-icon"] target:self action:@selector(clickLightDay)];
+    UIBarButtonItem *nightDay = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-moon-icon"] selectImage:[UIImage imageNamed:@"mine-moon-icon-click"]target:self action:@selector(clickNightDay:)];
+    
+    self.navigationItem.rightBarButtonItems = @[lightDay,nightDay];
+    
+    self.navigationItem.title = @"我的";
+    
+}
+
+- (void)clickLightDay{
+    
+}
+- (void)clickNightDay:(UIButton *)button{
+    button.selected = !button.selected;
+}
+    
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -32,12 +45,10 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
     return 0;
 }
 

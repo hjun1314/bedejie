@@ -21,6 +21,9 @@
 		F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D281FA1BCB5004D096F /* HJTabVC.m */; };
 		F02D9D2D1FA1BFB6004D096F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */; };
 		F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D2F1FA1D5DE004D096F /* HJCustormTabBar.m */; };
+		F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546A1FA2D15800230624 /* UIView+Frame.m */; };
+		F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546D1FA2D18400230624 /* UIBarButtonItem+item.m */; };
+		F08B54711FA2D42C00230624 /* HJNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54701FA2D42C00230624 /* HJNavVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,13 @@
 		F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		F02D9D2E1FA1D5DE004D096F /* HJCustormTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCustormTabBar.h; sourceTree = "<group>"; };
 		F02D9D2F1FA1D5DE004D096F /* HJCustormTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCustormTabBar.m; sourceTree = "<group>"; };
+		F08B54691FA2D15800230624 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F08B546A1FA2D15800230624 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F08B546C1FA2D18400230624 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
+		F08B546D1FA2D18400230624 /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		F08B546F1FA2D42C00230624 /* HJNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNavVC.h; sourceTree = "<group>"; };
+		F08B54701FA2D42C00230624 /* HJNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNavVC.m; sourceTree = "<group>"; };
+		F08B54721FA2D7CA00230624 /* budejie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = budejie.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 			children = (
 				F02D9CE11FA1B2DF004D096F /* AppDelegate.h */,
 				F02D9CE21FA1B2DF004D096F /* AppDelegate.m */,
+				F08B54721FA2D7CA00230624 /* budejie.pch */,
 				F02D9CF81FA1B324004D096F /* Classes */,
 				F02D9CE71FA1B2DF004D096F /* Main.storyboard */,
 				F02D9CED1FA1B2DF004D096F /* Assets.xcassets */,
@@ -328,6 +339,8 @@
 			children = (
 				F02D9D271FA1BCB5004D096F /* HJTabVC.h */,
 				F02D9D281FA1BCB5004D096F /* HJTabVC.m */,
+				F08B546F1FA2D42C00230624 /* HJNavVC.h */,
+				F08B54701FA2D42C00230624 /* HJNavVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -351,8 +364,12 @@
 		F02D9D2A1FA1BF3F004D096F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				F08B54691FA2D15800230624 /* UIView+Frame.h */,
+				F08B546A1FA2D15800230624 /* UIView+Frame.m */,
 				F02D9D2B1FA1BFB6004D096F /* UIImage+Image.h */,
 				F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */,
+				F08B546C1FA2D18400230624 /* UIBarButtonItem+item.h */,
+				F08B546D1FA2D18400230624 /* UIBarButtonItem+item.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -430,6 +447,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */,
+				F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */,
 				F02D9D1E1FA1B324004D096F /* HJMeVC.m in Sources */,
 				F02D9D2D1FA1BFB6004D096F /* UIImage+Image.m in Sources */,
 				F02D9CEC1FA1B2DF004D096F /* budejie.xcdatamodeld in Sources */,
@@ -438,6 +457,7 @@
 				F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */,
 				F02D9D1C1FA1B324004D096F /* HJNewVC.m in Sources */,
 				F02D9CE31FA1B2DF004D096F /* AppDelegate.m in Sources */,
+				F08B54711FA2D42C00230624 /* HJNavVC.m in Sources */,
 				F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */,
 				F02D9D1F1FA1B324004D096F /* HJPublishVC.m in Sources */,
 				F02D9CE01FA1B2DF004D096F /* main.m in Sources */,
@@ -560,7 +580,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				GCC_PREFIX_HEADER = /Users/hjun/Desktop/bedejie/budejie/budejie/budejie.pch;
 				INFOPLIST_FILE = budejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.budejie;
@@ -572,7 +594,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				GCC_PREFIX_HEADER = /Users/hjun/Desktop/bedejie/budejie/budejie/budejie.pch;
 				INFOPLIST_FILE = budejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.budejie;
@@ -599,6 +623,7 @@
 				F02D9CF71FA1B2DF004D096F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
