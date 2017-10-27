@@ -11,6 +11,12 @@
 #import "UIImage+Image.h"
 #import "UIView+Frame.h"
 
+///第三方
+#import <AFNetworking/AFNetworking.h>
+#import <MJExtension/MJExtension.h>
+#import <UIImageView+WebCache.h>
+
+
 //屏幕适配
 #define XMGScreenW [UIScreen mainScreen].bounds.size.width
 #define XMGScreenH [UIScreen mainScreen].bounds.size.height

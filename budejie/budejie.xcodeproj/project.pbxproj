@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80409151680D8124A08736B /* libPods-budejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B9E5032665C8DA2F23F265 /* libPods-budejie.a */; };
 		F02D9CE01FA1B2DF004D096F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9CDF1FA1B2DF004D096F /* main.m */; };
 		F02D9CE31FA1B2DF004D096F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9CE21FA1B2DF004D096F /* AppDelegate.m */; };
 		F02D9CE91FA1B2DF004D096F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02D9CE71FA1B2DF004D096F /* Main.storyboard */; };
@@ -27,9 +28,13 @@
 		F08B54791FA2E5EC00230624 /* HJSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54781FA2E5EC00230624 /* HJSettingVC.m */; };
 		F08B54811FA326B200230624 /* HJADVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B547F1FA326B200230624 /* HJADVC.m */; };
 		F08B54821FA326B200230624 /* HJADVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08B54801FA326B200230624 /* HJADVC.xib */; };
+		F08B54851FA32E9200230624 /* HJADItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54841FA32E9200230624 /* HJADItemModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2213C03210CCD64AE4F2C5B3 /* Pods-budejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-budejie/Pods-budejie.debug.xcconfig"; sourceTree = "<group>"; };
+		33DC92E9C4647197381A4F11 /* Pods-budejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-budejie/Pods-budejie.release.xcconfig"; sourceTree = "<group>"; };
+		C3B9E5032665C8DA2F23F265 /* libPods-budejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-budejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02D9CDB1FA1B2DF004D096F /* budejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02D9CDF1FA1B2DF004D096F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F02D9CE11FA1B2DF004D096F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +72,8 @@
 		F08B547E1FA326B200230624 /* HJADVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJADVC.h; sourceTree = "<group>"; };
 		F08B547F1FA326B200230624 /* HJADVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJADVC.m; sourceTree = "<group>"; };
 		F08B54801FA326B200230624 /* HJADVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJADVC.xib; sourceTree = "<group>"; };
+		F08B54831FA32E9200230624 /* HJADItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJADItemModel.h; sourceTree = "<group>"; };
+		F08B54841FA32E9200230624 /* HJADItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJADItemModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80409151680D8124A08736B /* libPods-budejie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35D1AA28495F4DB3AD49B95A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2213C03210CCD64AE4F2C5B3 /* Pods-budejie.debug.xcconfig */,
+				33DC92E9C4647197381A4F11 /* Pods-budejie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A9A548263876A242B0F1086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9E5032665C8DA2F23F265 /* libPods-budejie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F02D9CD21FA1B2DF004D096F = {
 			isa = PBXGroup;
 			children = (
 				F02D9CDD1FA1B2DF004D096F /* budejie */,
 				F02D9CDC1FA1B2DF004D096F /* Products */,
+				35D1AA28495F4DB3AD49B95A /* Pods */,
+				5A9A548263876A242B0F1086 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -440,6 +467,8 @@
 		F08B547C1FA3261B00230624 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F08B54831FA32E9200230624 /* HJADItemModel.h */,
+				F08B54841FA32E9200230624 /* HJADItemModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -458,9 +487,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F02D9CF51FA1B2DF004D096F /* Build configuration list for PBXNativeTarget "budejie" */;
 			buildPhases = (
+				FFA7040C3913E02185D5D24E /* [CP] Check Pods Manifest.lock */,
 				F02D9CD71FA1B2DF004D096F /* Sources */,
 				F02D9CD81FA1B2DF004D096F /* Frameworks */,
 				F02D9CD91FA1B2DF004D096F /* Resources */,
+				D51625A3C4E678931E678AD3 /* [CP] Embed Pods Frameworks */,
+				F5F1A4B8BFDC1A200D279625 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -520,6 +552,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D51625A3C4E678931E678AD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-budejie/Pods-budejie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F1A4B8BFDC1A200D279625 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-budejie/Pods-budejie-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-budejie/Pods-budejie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA7040C3913E02185D5D24E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-budejie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F02D9CD71FA1B2DF004D096F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -534,6 +620,7 @@
 				F02D9D1B1FA1B324004D096F /* HJEssenceVC.m in Sources */,
 				F02D9D1D1FA1B324004D096F /* HJFriendTrendVC.m in Sources */,
 				F08B54791FA2E5EC00230624 /* HJSettingVC.m in Sources */,
+				F08B54851FA32E9200230624 /* HJADItemModel.m in Sources */,
 				F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */,
 				F02D9D1C1FA1B324004D096F /* HJNewVC.m in Sources */,
 				F02D9CE31FA1B2DF004D096F /* AppDelegate.m in Sources */,
@@ -658,12 +745,14 @@
 		};
 		F02D9CF61FA1B2DF004D096F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2213C03210CCD64AE4F2C5B3 /* Pods-budejie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UBB52YGJ4B;
 				GCC_PREFIX_HEADER = /Users/hjun/Desktop/bedejie/budejie/budejie/budejie.pch;
 				INFOPLIST_FILE = budejie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.budejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -672,12 +761,14 @@
 		};
 		F02D9CF71FA1B2DF004D096F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DC92E9C4647197381A4F11 /* Pods-budejie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UBB52YGJ4B;
 				GCC_PREFIX_HEADER = /Users/hjun/Desktop/bedejie/budejie/budejie/budejie.pch;
 				INFOPLIST_FILE = budejie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.budejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
