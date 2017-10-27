@@ -1,0 +1,24 @@
+//
+//  budejie.pch
+//  budejie
+//
+//  Created by hjun on 2017/10/27.
+//  Copyright © 2017年 hjun. All rights reserved.
+//
+
+
+#import "UIBarButtonItem+item.h"
+#import "UIImage+Image.h"
+#import "UIView+Frame.h"
+
+#define HJFunc HJLog(@"%s",__func__)
+
+#ifdef DEBUG // 调试
+
+#define HJLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define HJLog(...)
+
+#endif /* budejie_pch */

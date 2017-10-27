@@ -1,46 +1,25 @@
 //
-//  HJMeVC.m
+//  HJSettingVC.m
 //  budejie
 //
-//  Created by hjun on 2017/10/26.
+//  Created by hjun on 2017/10/27.
 //  Copyright © 2017年 hjun. All rights reserved.
 //
 
-#import "HJMeVC.h"
 #import "HJSettingVC.h"
-@interface HJMeVC ()
+
+@interface HJSettingVC ()
 
 @end
 
-@implementation HJMeVC
+@implementation HJSettingVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupNav];
+    
+    self.title = @"设置";
 }
 
-- (void)setupNav{
-    
-    UIBarButtonItem *lightDay = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-setting-icon"] highlightImage:[UIImage imageNamed:@"mine-setting-icon"] target:self action:@selector(setting)];
-    UIBarButtonItem *nightDay = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-moon-icon"] selectImage:[UIImage imageNamed:@"mine-moon-icon-click"]target:self action:@selector(clickNightDay:)];
-    
-    self.navigationItem.rightBarButtonItems = @[lightDay,nightDay];
-    
-    self.navigationItem.title = @"我的";
-    
-}
-- (void)clickNightDay:(UIButton *)button{
-    button.selected = !button.selected;
-}
-    
-    ///设置
-- (void)setting{
-    HJSettingVC *setting = [[HJSettingVC alloc]init];
-    setting.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:setting animated:YES];
-}
-
-    
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

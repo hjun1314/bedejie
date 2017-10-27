@@ -24,6 +24,7 @@
 		F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546A1FA2D15800230624 /* UIView+Frame.m */; };
 		F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546D1FA2D18400230624 /* UIBarButtonItem+item.m */; };
 		F08B54711FA2D42C00230624 /* HJNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54701FA2D42C00230624 /* HJNavVC.m */; };
+		F08B54791FA2E5EC00230624 /* HJSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54781FA2E5EC00230624 /* HJSettingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		F08B546F1FA2D42C00230624 /* HJNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNavVC.h; sourceTree = "<group>"; };
 		F08B54701FA2D42C00230624 /* HJNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNavVC.m; sourceTree = "<group>"; };
 		F08B54721FA2D7CA00230624 /* budejie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = budejie.pch; sourceTree = "<group>"; };
+		F08B54771FA2E5EC00230624 /* HJSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSettingVC.h; sourceTree = "<group>"; };
+		F08B54781FA2E5EC00230624 /* HJSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSettingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F02D9D231FA1BC46004D096F /* Main */,
+				F08B54731FA2E5AD00230624 /* Setting(设置) */,
 				F02D9CF91FA1B324004D096F /* Essence(精华) */,
 				F02D9D031FA1B324004D096F /* New(新帖) */,
 				F02D9D091FA1B324004D096F /* FriendTrend(关注) */,
@@ -374,6 +378,39 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		F08B54731FA2E5AD00230624 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				F08B54741FA2E5AD00230624 /* Controller */,
+				F08B54751FA2E5AD00230624 /* Model */,
+				F08B54761FA2E5AD00230624 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		F08B54741FA2E5AD00230624 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F08B54771FA2E5EC00230624 /* HJSettingVC.h */,
+				F08B54781FA2E5EC00230624 /* HJSettingVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F08B54751FA2E5AD00230624 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F08B54761FA2E5AD00230624 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -454,6 +491,7 @@
 				F02D9CEC1FA1B2DF004D096F /* budejie.xcdatamodeld in Sources */,
 				F02D9D1B1FA1B324004D096F /* HJEssenceVC.m in Sources */,
 				F02D9D1D1FA1B324004D096F /* HJFriendTrendVC.m in Sources */,
+				F08B54791FA2E5EC00230624 /* HJSettingVC.m in Sources */,
 				F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */,
 				F02D9D1C1FA1B324004D096F /* HJNewVC.m in Sources */,
 				F02D9CE31FA1B2DF004D096F /* AppDelegate.m in Sources */,
