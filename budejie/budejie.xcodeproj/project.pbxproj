@@ -25,6 +25,8 @@
 		F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546D1FA2D18400230624 /* UIBarButtonItem+item.m */; };
 		F08B54711FA2D42C00230624 /* HJNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54701FA2D42C00230624 /* HJNavVC.m */; };
 		F08B54791FA2E5EC00230624 /* HJSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54781FA2E5EC00230624 /* HJSettingVC.m */; };
+		F08B54811FA326B200230624 /* HJADVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B547F1FA326B200230624 /* HJADVC.m */; };
+		F08B54821FA326B200230624 /* HJADVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08B54801FA326B200230624 /* HJADVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,9 @@
 		F08B54721FA2D7CA00230624 /* budejie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = budejie.pch; sourceTree = "<group>"; };
 		F08B54771FA2E5EC00230624 /* HJSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSettingVC.h; sourceTree = "<group>"; };
 		F08B54781FA2E5EC00230624 /* HJSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSettingVC.m; sourceTree = "<group>"; };
+		F08B547E1FA326B200230624 /* HJADVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJADVC.h; sourceTree = "<group>"; };
+		F08B547F1FA326B200230624 /* HJADVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJADVC.m; sourceTree = "<group>"; };
+		F08B54801FA326B200230624 /* HJADVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJADVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,7 @@
 		F02D9CF81FA1B324004D096F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F08B547A1FA3261B00230624 /* AD(广告) */,
 				F02D9D231FA1BC46004D096F /* Main */,
 				F08B54731FA2E5AD00230624 /* Setting(设置) */,
 				F02D9CF91FA1B324004D096F /* Essence(精华) */,
@@ -411,6 +417,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F08B547A1FA3261B00230624 /* AD(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				F08B547B1FA3261B00230624 /* Controller */,
+				F08B547C1FA3261B00230624 /* Model */,
+				F08B547D1FA3261B00230624 /* View */,
+			);
+			path = "AD(广告)";
+			sourceTree = "<group>";
+		};
+		F08B547B1FA3261B00230624 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F08B547E1FA326B200230624 /* HJADVC.h */,
+				F08B547F1FA326B200230624 /* HJADVC.m */,
+				F08B54801FA326B200230624 /* HJADVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F08B547C1FA3261B00230624 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F08B547D1FA3261B00230624 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -474,6 +514,7 @@
 				F02D9CF11FA1B2DF004D096F /* LaunchScreen.storyboard in Resources */,
 				F02D9CEE1FA1B2DF004D096F /* Assets.xcassets in Resources */,
 				F02D9CE91FA1B2DF004D096F /* Main.storyboard in Resources */,
+				F08B54821FA326B200230624 /* HJADVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +528,7 @@
 				F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */,
 				F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */,
 				F02D9D1E1FA1B324004D096F /* HJMeVC.m in Sources */,
+				F08B54811FA326B200230624 /* HJADVC.m in Sources */,
 				F02D9D2D1FA1BFB6004D096F /* UIImage+Image.m in Sources */,
 				F02D9CEC1FA1B2DF004D096F /* budejie.xcdatamodeld in Sources */,
 				F02D9D1B1FA1B324004D096F /* HJEssenceVC.m in Sources */,

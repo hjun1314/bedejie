@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HJTabVC.h"
+#import "HJADVC.h"
 @interface AppDelegate ()
 
 @end
@@ -17,9 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    HJTabVC *tab = [[HJTabVC alloc]init];
-    self.window.rootViewController = tab;
-    
+   // HJTabVC *tab = [[HJTabVC alloc]init];
+   // self.window.rootViewController = tab;
+    HJADVC *adVC = [[HJADVC alloc]init];
+    self.window.rootViewController = adVC;
     [self.window makeKeyAndVisible];
     
     

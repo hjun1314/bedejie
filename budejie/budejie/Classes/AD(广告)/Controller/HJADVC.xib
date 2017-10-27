@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17A405" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HJADVC">
+            <connections>
+                <outlet property="ADView" destination="mYR-GL-ejz" id="xzc-fe-dYt"/>
+                <outlet property="launchImageView" destination="Ixa-Z5-fdb" id="Bga-ff-RCo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="501"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ixa-Z5-fdb">
+                    <rect key="frame" x="0.0" y="0.0" width="344" height="501"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mYR-GL-ejz" userLabel="广告占位图">
+                    <rect key="frame" x="0.0" y="0.0" width="344" height="501"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hd-ph-c8y">
+                            <rect key="frame" x="264" y="15" width="60" height="25"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="LNu-r5-vtw"/>
+                                <constraint firstAttribute="height" constant="25" id="SjF-Iz-lax"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="跳过(3)"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="4Hd-ph-c8y" firstAttribute="top" secondItem="mYR-GL-ejz" secondAttribute="top" constant="15" id="V9n-dn-xWx"/>
+                        <constraint firstAttribute="trailing" secondItem="4Hd-ph-c8y" secondAttribute="trailing" constant="20" id="yNe-et-fu9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mYR-GL-ejz" secondAttribute="trailing" id="MMj-0e-JSm"/>
+                <constraint firstAttribute="bottom" secondItem="mYR-GL-ejz" secondAttribute="bottom" id="Sbn-hm-5TF"/>
+                <constraint firstItem="mYR-GL-ejz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zd6-m3-VcI"/>
+                <constraint firstItem="Ixa-Z5-fdb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="azl-40-p73"/>
+                <constraint firstAttribute="bottom" secondItem="Ixa-Z5-fdb" secondAttribute="bottom" id="jUH-Dd-G36"/>
+                <constraint firstItem="Ixa-Z5-fdb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kBb-pe-dNA"/>
+                <constraint firstItem="mYR-GL-ejz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lrg-dc-5n2"/>
+                <constraint firstAttribute="trailing" secondItem="Ixa-Z5-fdb" secondAttribute="trailing" id="wD7-E3-yyB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="11" y="-56.5"/>
+        </view>
+    </objects>
+</document>
