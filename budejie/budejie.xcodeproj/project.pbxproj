@@ -20,6 +20,7 @@
 		F02D9D1F1FA1B324004D096F /* HJPublishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D171FA1B324004D096F /* HJPublishVC.m */; };
 		F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D281FA1BCB5004D096F /* HJTabVC.m */; };
 		F02D9D2D1FA1BFB6004D096F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */; };
+		F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D2F1FA1D5DE004D096F /* HJCustormTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		F02D9D281FA1BCB5004D096F /* HJTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabVC.m; sourceTree = "<group>"; };
 		F02D9D2B1FA1BFB6004D096F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		F02D9D2E1FA1D5DE004D096F /* HJCustormTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCustormTabBar.h; sourceTree = "<group>"; };
+		F02D9D2F1FA1D5DE004D096F /* HJCustormTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCustormTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +342,8 @@
 		F02D9D261FA1BC46004D096F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F02D9D2E1FA1D5DE004D096F /* HJCustormTabBar.h */,
+				F02D9D2F1FA1D5DE004D096F /* HJCustormTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -430,6 +435,7 @@
 				F02D9CEC1FA1B2DF004D096F /* budejie.xcdatamodeld in Sources */,
 				F02D9D1B1FA1B324004D096F /* HJEssenceVC.m in Sources */,
 				F02D9D1D1FA1B324004D096F /* HJFriendTrendVC.m in Sources */,
+				F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */,
 				F02D9D1C1FA1B324004D096F /* HJNewVC.m in Sources */,
 				F02D9CE31FA1B2DF004D096F /* AppDelegate.m in Sources */,
 				F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */,
