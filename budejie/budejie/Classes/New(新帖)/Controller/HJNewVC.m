@@ -7,7 +7,7 @@
 //
 
 #import "HJNewVC.h"
-
+#import "HJNewSubVC.h"
 @interface HJNewVC ()
 
 @end
@@ -25,7 +25,8 @@
 }
 #pragma mark- 点击订阅
 - (void)clickNew{
-    HJLog(@"点击了订阅");
+    HJNewSubVC *sub = [[HJNewSubVC alloc]init];
+    [self.navigationController pushViewController:sub animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

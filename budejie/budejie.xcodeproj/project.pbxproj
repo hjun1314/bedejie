@@ -22,6 +22,11 @@
 		F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D281FA1BCB5004D096F /* HJTabVC.m */; };
 		F02D9D2D1FA1BFB6004D096F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */; };
 		F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D9D2F1FA1D5DE004D096F /* HJCustormTabBar.m */; };
+		F0466E4E1FA6CD5800987935 /* UPSHttpNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F0466E4D1FA6CD5800987935 /* UPSHttpNetWorkTool.m */; };
+		F0466E511FA6CDBC00987935 /* HJNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0466E501FA6CDBC00987935 /* HJNewModel.m */; };
+		F0466E541FA6CE2000987935 /* HJNewSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0466E531FA6CE2000987935 /* HJNewSubVC.m */; };
+		F0466E581FA6D01100987935 /* HJNewSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0466E561FA6D01100987935 /* HJNewSubCell.m */; };
+		F0466E591FA6D01100987935 /* HJNewSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0466E571FA6D01100987935 /* HJNewSubCell.xib */; };
 		F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546A1FA2D15800230624 /* UIView+Frame.m */; };
 		F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546D1FA2D18400230624 /* UIBarButtonItem+item.m */; };
 		F08B54711FA2D42C00230624 /* HJNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54701FA2D42C00230624 /* HJNavVC.m */; };
@@ -60,6 +65,15 @@
 		F02D9D2C1FA1BFB6004D096F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		F02D9D2E1FA1D5DE004D096F /* HJCustormTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCustormTabBar.h; sourceTree = "<group>"; };
 		F02D9D2F1FA1D5DE004D096F /* HJCustormTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCustormTabBar.m; sourceTree = "<group>"; };
+		F0466E4C1FA6CD5800987935 /* UPSHttpNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPSHttpNetWorkTool.h; sourceTree = "<group>"; };
+		F0466E4D1FA6CD5800987935 /* UPSHttpNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPSHttpNetWorkTool.m; sourceTree = "<group>"; };
+		F0466E4F1FA6CDBC00987935 /* HJNewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNewModel.h; sourceTree = "<group>"; };
+		F0466E501FA6CDBC00987935 /* HJNewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNewModel.m; sourceTree = "<group>"; };
+		F0466E521FA6CE2000987935 /* HJNewSubVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNewSubVC.h; sourceTree = "<group>"; };
+		F0466E531FA6CE2000987935 /* HJNewSubVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNewSubVC.m; sourceTree = "<group>"; };
+		F0466E551FA6D01100987935 /* HJNewSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNewSubCell.h; sourceTree = "<group>"; };
+		F0466E561FA6D01100987935 /* HJNewSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNewSubCell.m; sourceTree = "<group>"; };
+		F0466E571FA6D01100987935 /* HJNewSubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJNewSubCell.xib; sourceTree = "<group>"; };
 		F08B54691FA2D15800230624 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		F08B546A1FA2D15800230624 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		F08B546C1FA2D18400230624 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
@@ -151,6 +165,7 @@
 		F02D9CF81FA1B324004D096F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F0466E4B1FA6CD3A00987935 /* Tool */,
 				F08B547A1FA3261B00230624 /* AD(广告) */,
 				F02D9D231FA1BC46004D096F /* Main */,
 				F08B54731FA2E5AD00230624 /* Setting(设置) */,
@@ -194,9 +209,9 @@
 		F02D9D031FA1B324004D096F /* New(新帖) */ = {
 			isa = PBXGroup;
 			children = (
+				F02D9D041FA1B324004D096F /* Controller */,
 				F0466E451FA6CA0700987935 /* Model */,
 				F0466E461FA6CA0700987935 /* View */,
-				F02D9D041FA1B324004D096F /* Controller */,
 			);
 			path = "New(新帖)";
 			sourceTree = "<group>";
@@ -206,6 +221,8 @@
 			children = (
 				F02D9D061FA1B324004D096F /* HJNewVC.h */,
 				F02D9D051FA1B324004D096F /* HJNewVC.m */,
+				F0466E521FA6CE2000987935 /* HJNewSubVC.h */,
+				F0466E531FA6CE2000987935 /* HJNewSubVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -334,6 +351,8 @@
 		F0466E451FA6CA0700987935 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F0466E4F1FA6CDBC00987935 /* HJNewModel.h */,
+				F0466E501FA6CDBC00987935 /* HJNewModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -341,6 +360,9 @@
 		F0466E461FA6CA0700987935 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F0466E551FA6D01100987935 /* HJNewSubCell.h */,
+				F0466E561FA6D01100987935 /* HJNewSubCell.m */,
+				F0466E571FA6D01100987935 /* HJNewSubCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -371,6 +393,15 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F0466E4B1FA6CD3A00987935 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F0466E4C1FA6CD5800987935 /* UPSHttpNetWorkTool.h */,
+				F0466E4D1FA6CD5800987935 /* UPSHttpNetWorkTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		F08876631FA6BB80009911B6 /* Model */ = {
@@ -524,6 +555,7 @@
 				F02D9CF11FA1B2DF004D096F /* LaunchScreen.storyboard in Resources */,
 				F02D9CEE1FA1B2DF004D096F /* Assets.xcassets in Resources */,
 				F02D9CE91FA1B2DF004D096F /* Main.storyboard in Resources */,
+				F0466E591FA6D01100987935 /* HJNewSubCell.xib in Resources */,
 				F08B54821FA326B200230624 /* HJADVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,16 +624,20 @@
 				F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */,
 				F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */,
 				F02D9D1E1FA1B324004D096F /* HJMeVC.m in Sources */,
+				F0466E4E1FA6CD5800987935 /* UPSHttpNetWorkTool.m in Sources */,
 				F08B54811FA326B200230624 /* HJADVC.m in Sources */,
 				F02D9D2D1FA1BFB6004D096F /* UIImage+Image.m in Sources */,
 				F02D9CEC1FA1B2DF004D096F /* budejie.xcdatamodeld in Sources */,
 				F02D9D1B1FA1B324004D096F /* HJEssenceVC.m in Sources */,
 				F02D9D1D1FA1B324004D096F /* HJFriendTrendVC.m in Sources */,
+				F0466E581FA6D01100987935 /* HJNewSubCell.m in Sources */,
 				F08B54791FA2E5EC00230624 /* HJSettingVC.m in Sources */,
 				F08B54851FA32E9200230624 /* HJADItemModel.m in Sources */,
 				F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */,
 				F02D9D1C1FA1B324004D096F /* HJNewVC.m in Sources */,
 				F02D9CE31FA1B2DF004D096F /* AppDelegate.m in Sources */,
+				F0466E541FA6CE2000987935 /* HJNewSubVC.m in Sources */,
+				F0466E511FA6CDBC00987935 /* HJNewModel.m in Sources */,
 				F08B54711FA2D42C00230624 /* HJNavVC.m in Sources */,
 				F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */,
 				F02D9D1F1FA1B324004D096F /* HJPublishVC.m in Sources */,
