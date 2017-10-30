@@ -7,16 +7,20 @@
 //
 
 #import "HJFriendTrendVC.h"
-
+#import "HJLoginVC.h"
 @interface HJFriendTrendVC ()
 
 @end
 
 @implementation HJFriendTrendVC
+- (IBAction)clickLoginBtn:(UIButton *)sender {
+    HJLoginVC *login = [[HJLoginVC alloc]init];
+    [self.navigationController presentViewController:login animated:YES completion:nil];
+
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
     [self setupNav];
 }
 - (void)setupNav{

@@ -18,5 +18,6 @@
 @property CGFloat xmg_height;
 @property CGFloat xmg_x;
 @property CGFloat xmg_y;
-
+@property CGFloat xmg_centerX;
+@property CGFloat xmg_centerY;
 @end

@@ -27,6 +27,9 @@
 		F0466E541FA6CE2000987935 /* HJNewSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0466E531FA6CE2000987935 /* HJNewSubVC.m */; };
 		F0466E581FA6D01100987935 /* HJNewSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0466E561FA6D01100987935 /* HJNewSubCell.m */; };
 		F0466E591FA6D01100987935 /* HJNewSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0466E571FA6D01100987935 /* HJNewSubCell.xib */; };
+		F06817781FA72AC7009CDFC1 /* HJFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F06817771FA72AC7009CDFC1 /* HJFastLoginView.m */; };
+		F068177A1FA72ADD009CDFC1 /* HJFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06817791FA72ADD009CDFC1 /* HJFastLoginView.xib */; };
+		F068177D1FA72C4C009CDFC1 /* HJFastBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F068177C1FA72C4C009CDFC1 /* HJFastBtn.m */; };
 		F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546A1FA2D15800230624 /* UIView+Frame.m */; };
 		F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B546D1FA2D18400230624 /* UIBarButtonItem+item.m */; };
 		F08B54711FA2D42C00230624 /* HJNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54701FA2D42C00230624 /* HJNavVC.m */; };
@@ -34,6 +37,11 @@
 		F08B54811FA326B200230624 /* HJADVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B547F1FA326B200230624 /* HJADVC.m */; };
 		F08B54821FA326B200230624 /* HJADVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08B54801FA326B200230624 /* HJADVC.xib */; };
 		F08B54851FA32E9200230624 /* HJADItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B54841FA32E9200230624 /* HJADItemModel.m */; };
+		F0B681CE1FA706560072638A /* HJFriendTrendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B681CD1FA706560072638A /* HJFriendTrendVC.xib */; };
+		F0B681D21FA708680072638A /* HJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B681D01FA708680072638A /* HJLoginVC.m */; };
+		F0B681D31FA708680072638A /* HJLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D11FA708680072638A /* HJLoginVC.xib */; };
+		F0B681D61FA713320072638A /* HJRegisterLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B681D51FA713320072638A /* HJRegisterLoginView.m */; };
+		F0B681D81FA713430072638A /* HJRegisterLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D71FA713430072638A /* HJRegisterLoginView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +82,11 @@
 		F0466E551FA6D01100987935 /* HJNewSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNewSubCell.h; sourceTree = "<group>"; };
 		F0466E561FA6D01100987935 /* HJNewSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNewSubCell.m; sourceTree = "<group>"; };
 		F0466E571FA6D01100987935 /* HJNewSubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJNewSubCell.xib; sourceTree = "<group>"; };
+		F06817761FA72AC7009CDFC1 /* HJFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFastLoginView.h; sourceTree = "<group>"; };
+		F06817771FA72AC7009CDFC1 /* HJFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFastLoginView.m; sourceTree = "<group>"; };
+		F06817791FA72ADD009CDFC1 /* HJFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJFastLoginView.xib; sourceTree = "<group>"; };
+		F068177B1FA72C4C009CDFC1 /* HJFastBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFastBtn.h; sourceTree = "<group>"; };
+		F068177C1FA72C4C009CDFC1 /* HJFastBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFastBtn.m; sourceTree = "<group>"; };
 		F08B54691FA2D15800230624 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		F08B546A1FA2D15800230624 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		F08B546C1FA2D18400230624 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
@@ -88,6 +101,13 @@
 		F08B54801FA326B200230624 /* HJADVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJADVC.xib; sourceTree = "<group>"; };
 		F08B54831FA32E9200230624 /* HJADItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJADItemModel.h; sourceTree = "<group>"; };
 		F08B54841FA32E9200230624 /* HJADItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJADItemModel.m; sourceTree = "<group>"; };
+		F0B681CD1FA706560072638A /* HJFriendTrendVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJFriendTrendVC.xib; sourceTree = "<group>"; };
+		F0B681CF1FA708680072638A /* HJLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLoginVC.h; sourceTree = "<group>"; };
+		F0B681D01FA708680072638A /* HJLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLoginVC.m; sourceTree = "<group>"; };
+		F0B681D11FA708680072638A /* HJLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJLoginVC.xib; sourceTree = "<group>"; };
+		F0B681D41FA713320072638A /* HJRegisterLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRegisterLoginView.h; sourceTree = "<group>"; };
+		F0B681D51FA713320072638A /* HJRegisterLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRegisterLoginView.m; sourceTree = "<group>"; };
+		F0B681D71FA713430072638A /* HJRegisterLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJRegisterLoginView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +262,10 @@
 			children = (
 				F02D9D0C1FA1B324004D096F /* HJFriendTrendVC.h */,
 				F02D9D0B1FA1B324004D096F /* HJFriendTrendVC.m */,
+				F0B681CD1FA706560072638A /* HJFriendTrendVC.xib */,
+				F0B681CF1FA708680072638A /* HJLoginVC.h */,
+				F0B681D01FA708680072638A /* HJLoginVC.m */,
+				F0B681D11FA708680072638A /* HJLoginVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -344,6 +368,14 @@
 		F0466E441FA6C9BC00987935 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F0B681D41FA713320072638A /* HJRegisterLoginView.h */,
+				F0B681D51FA713320072638A /* HJRegisterLoginView.m */,
+				F0B681D71FA713430072638A /* HJRegisterLoginView.xib */,
+				F06817761FA72AC7009CDFC1 /* HJFastLoginView.h */,
+				F06817771FA72AC7009CDFC1 /* HJFastLoginView.m */,
+				F06817791FA72ADD009CDFC1 /* HJFastLoginView.xib */,
+				F068177B1FA72C4C009CDFC1 /* HJFastBtn.h */,
+				F068177C1FA72C4C009CDFC1 /* HJFastBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -552,11 +584,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B681CE1FA706560072638A /* HJFriendTrendVC.xib in Resources */,
 				F02D9CF11FA1B2DF004D096F /* LaunchScreen.storyboard in Resources */,
+				F0B681D31FA708680072638A /* HJLoginVC.xib in Resources */,
+				F0B681D81FA713430072638A /* HJRegisterLoginView.xib in Resources */,
 				F02D9CEE1FA1B2DF004D096F /* Assets.xcassets in Resources */,
 				F02D9CE91FA1B2DF004D096F /* Main.storyboard in Resources */,
 				F0466E591FA6D01100987935 /* HJNewSubCell.xib in Resources */,
 				F08B54821FA326B200230624 /* HJADVC.xib in Resources */,
+				F068177A1FA72ADD009CDFC1 /* HJFastLoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +658,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F06817781FA72AC7009CDFC1 /* HJFastLoginView.m in Sources */,
+				F068177D1FA72C4C009CDFC1 /* HJFastBtn.m in Sources */,
+				F0B681D61FA713320072638A /* HJRegisterLoginView.m in Sources */,
 				F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */,
 				F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */,
 				F02D9D1E1FA1B324004D096F /* HJMeVC.m in Sources */,
@@ -632,6 +671,7 @@
 				F02D9D1B1FA1B324004D096F /* HJEssenceVC.m in Sources */,
 				F02D9D1D1FA1B324004D096F /* HJFriendTrendVC.m in Sources */,
 				F0466E581FA6D01100987935 /* HJNewSubCell.m in Sources */,
+				F0B681D21FA708680072638A /* HJLoginVC.m in Sources */,
 				F08B54791FA2E5EC00230624 /* HJSettingVC.m in Sources */,
 				F08B54851FA32E9200230624 /* HJADItemModel.m in Sources */,
 				F02D9D301FA1D5DE004D096F /* HJCustormTabBar.m in Sources */,
