@@ -28,9 +28,20 @@ static NSString * const ID = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadData];
-    
+    self.title = @"推荐标签";
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.backgroundColor = XMGColor(220, 220, 221);
+
     [self.tableView registerNib:[UINib nibWithNibName:@"HJNewSubCell" bundle:nil]forCellReuseIdentifier:ID];
+    [SVProgressHUD showWithStatus:@"正在加载ing....."];
+
 }
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [SVProgressHUD dismiss];
+    
+}
+
 - (void)loadData{
     
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
@@ -42,9 +53,11 @@ static NSString * const ID = @"cell";
         // 字典数组转换模型数组
         _subData = [HJNewModel mj_objectArrayWithKeyValuesArray:responseObject];
         [self.tableView reloadData];
+        [SVProgressHUD dismiss];
         
     } fail:^(NSURLSessionDataTask *task, NSError *error) {
-        
+        [SVProgressHUD dismiss];
+
     }];
     
     
@@ -73,7 +86,7 @@ static NSString * const ID = @"cell";
 
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 70;
+    return 80;
 }
 
 @end

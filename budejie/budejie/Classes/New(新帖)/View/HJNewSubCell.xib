@@ -37,9 +37,9 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZ7-u0-Bg6">
-                        <rect key="frame" x="272" y="31.5" width="42" height="29"/>
+                        <rect key="frame" x="234" y="30.5" width="80" height="31"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <state key="normal" title="+ 订阅">
+                        <state key="normal" title="+ 订阅" backgroundImage="tagButtonBG">
                             <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </state>
                     </button>
@@ -63,4 +63,7 @@
             <point key="canvasLocation" x="39" y="134.5"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="tagButtonBG" width="80" height="31"/>
+    </resources>
 </document>
