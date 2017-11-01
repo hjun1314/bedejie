@@ -12,6 +12,8 @@
 #import "UIImage+Image.h"
 #import "UIView+Frame.h"
 #import "FileTool.h"
+#import "HJConst.h"
+
 ///第三方
 #import <AFNetworking/AFNetworking.h>
 #import <MJExtension/MJExtension.h>
@@ -28,7 +30,7 @@
 
 
 #define XMGColor(r,g,b) [UIColor colorWithRed:(r) / 256.0 green:(g) / 256.0 blue:(b) / 256.0 alpha:1]
-
+#define RandomColor XMGColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 
 #define HJFunc HJLog(@"%s",__func__)
 
