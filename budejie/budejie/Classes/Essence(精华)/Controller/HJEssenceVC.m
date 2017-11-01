@@ -30,6 +30,7 @@
     [self setNav];
     [self setupScrollView];
     [self setupTitleView];
+    [self addChildVCIntoScrollView];
 }
 - (void)addChildVC{
     [self addChildViewController:[[HJAllVC alloc]init]];
@@ -64,13 +65,13 @@
     
     NSUInteger count = self.childViewControllers.count;
     CGFloat scrollViewW = scrollView.xmg_width;
-    CGFloat scrollViewH = scrollView.xmg_height;
-    for (int i = 0; i < count;
-         i++) {
-        UIView *childView = self.childViewControllers[i].view;
-        childView.frame = CGRectMake(i * scrollViewW, 0, scrollViewW, scrollViewH);
-        [scrollView addSubview:childView];
-    }
+//    CGFloat scrollViewH = scrollView.xmg_height;
+//    for (int i = 0; i < count;
+//         i++) {
+//        UIView *childView = self.childViewControllers[i].view;
+//        childView.frame = CGRectMake(i * scrollViewW, 0, scrollViewW, scrollViewH);
+//        [scrollView addSubview:childView];
+//    }
     scrollView.contentSize = CGSizeMake(count * scrollViewW, 0);
     
 }
@@ -138,15 +139,16 @@
     titleButton.selected = YES;
     self.essenseBtn = titleButton;
     
-    [UIView animateWithDuration:0.2 animations:^{
-       
+    NSUInteger index = titleButton.tag;
+    [UIView animateWithDuration:0.3 animations:^{
         self.underLine.xmg_width = titleButton.titleLabel.xmg_width + 10;
         self.underLine.xmg_centerX = titleButton.xmg_centerX;
         
-        CGFloat offsetX = self.scrollView.xmg_width *titleButton.tag;
+        CGFloat offsetX = self.scrollView.xmg_width *index;
         
         self.scrollView.contentOffset = CGPointMake(offsetX, self.scrollView.contentOffset.y);
-        
+    } completion:^(BOOL finished) {
+        [self addChildVCIntoScrollView];
     }];
 }
 
@@ -155,6 +157,26 @@
     HJEssenseBtn *titleBtn = self.titileView.subviews[index];
     [self titleButtonClick:titleBtn];
 }
+
+///添加子控制器的View到scrollView
+- (void)addChildVCIntoScrollView{
+    
+    CGFloat scrollViewW = self.scrollView.xmg_width;
+    
+    NSUInteger index = self.scrollView.contentOffset.x / scrollViewW;
+    
+    
+       UIView *childView = self.childViewControllers[index].view;
+    
+    
+    childView.frame = self.scrollView.bounds;
+    
+    
+    [self.scrollView addSubview:childView];
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
