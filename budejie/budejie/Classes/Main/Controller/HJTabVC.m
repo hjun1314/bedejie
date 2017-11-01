@@ -70,7 +70,9 @@
     ;
     [self addChildViewController:nav3];
     
-    HJMeVC *me = [[HJMeVC alloc]init];
+    
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"HJMeVC" bundle:nil];
+    HJMeVC *me = [sb instantiateInitialViewController];
     HJNavVC *nav4 = [[HJNavVC alloc]initWithRootViewController:me];
     [self addChildViewController:nav4];
 
