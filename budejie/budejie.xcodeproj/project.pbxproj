@@ -50,6 +50,7 @@
 		F0B681D31FA708680072638A /* HJLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D11FA708680072638A /* HJLoginVC.xib */; };
 		F0B681D61FA713320072638A /* HJRegisterLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B681D51FA713320072638A /* HJRegisterLoginView.m */; };
 		F0B681D81FA713430072638A /* HJRegisterLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B681D71FA713430072638A /* HJRegisterLoginView.xib */; };
+		F0D2CD721FA9704400109201 /* FileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2CD711FA9704400109201 /* FileTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +130,8 @@
 		F0B681D41FA713320072638A /* HJRegisterLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRegisterLoginView.h; sourceTree = "<group>"; };
 		F0B681D51FA713320072638A /* HJRegisterLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRegisterLoginView.m; sourceTree = "<group>"; };
 		F0B681D71FA713430072638A /* HJRegisterLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJRegisterLoginView.xib; sourceTree = "<group>"; };
+		F0D2CD701FA9704400109201 /* FileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTool.h; sourceTree = "<group>"; };
+		F0D2CD711FA9704400109201 /* FileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -466,6 +469,8 @@
 			children = (
 				F0466E4C1FA6CD5800987935 /* UPSHttpNetWorkTool.h */,
 				F0466E4D1FA6CD5800987935 /* UPSHttpNetWorkTool.m */,
+				F0D2CD701FA9704400109201 /* FileTool.h */,
+				F0D2CD711FA9704400109201 /* FileTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -721,6 +726,7 @@
 				F08BE8CC1FA8487D006D8F9D /* HJFriendTextField.m in Sources */,
 				F0466E541FA6CE2000987935 /* HJNewSubVC.m in Sources */,
 				F0466E511FA6CDBC00987935 /* HJNewModel.m in Sources */,
+				F0D2CD721FA9704400109201 /* FileTool.m in Sources */,
 				F08B54711FA2D42C00230624 /* HJNavVC.m in Sources */,
 				F02D9D291FA1BCB5004D096F /* HJTabVC.m in Sources */,
 				F02D9D1F1FA1B324004D096F /* HJPublishVC.m in Sources */,

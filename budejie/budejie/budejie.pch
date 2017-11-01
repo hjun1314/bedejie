@@ -11,7 +11,7 @@
 #import "UIBarButtonItem+item.h"
 #import "UIImage+Image.h"
 #import "UIView+Frame.h"
-
+#import "FileTool.h"
 ///第三方
 #import <AFNetworking/AFNetworking.h>
 #import <MJExtension/MJExtension.h>
