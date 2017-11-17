@@ -18,8 +18,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = RandomColor;
-    self.tableView.contentInset = UIEdgeInsetsMake(NavMaxY + TitlesViewH, 0, TabBarH, 0);
-
+   self.tableView.contentInset = UIEdgeInsetsMake(TitlesViewH , 0, TabBarH, 0);
 }
 
 - (void)didReceiveMemoryWarning {

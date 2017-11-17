@@ -17,4 +17,8 @@ UIKIT_EXTERN CGFloat const NavMaxY;
 /** 标题栏的高度 */
 UIKIT_EXTERN CGFloat const TitlesViewH;
 
+//tabbarBtn被重复点击
+UIKIT_EXTERN NSString * const didTabbarBtn;
 
+///titleBtn被重复点击
+UIKIT_EXTERN NSString * const didTitleBtn;

@@ -17,3 +17,8 @@ CGFloat const NavMaxY = 64;
 /** 标题栏的高度 */
 CGFloat const TitlesViewH = 35;
 
+//tabbarBtn被重复点击
+NSString * const didTabbarBtn = @"didRepeatTabbarBtn";
+
+///titleBtn被重复点击
+NSString * const didTitleBtn = @"didRepeatTitleBtn";
