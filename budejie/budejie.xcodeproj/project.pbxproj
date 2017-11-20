@@ -28,6 +28,8 @@
 		F0466E541FA6CE2000987935 /* HJNewSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0466E531FA6CE2000987935 /* HJNewSubVC.m */; };
 		F0466E581FA6D01100987935 /* HJNewSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0466E561FA6D01100987935 /* HJNewSubCell.m */; };
 		F0466E591FA6D01100987935 /* HJNewSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0466E571FA6D01100987935 /* HJNewSubCell.xib */; };
+		F0607D791FBEDF3900EA4BCF /* HJEssenceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0607D771FBEDF3900EA4BCF /* HJEssenceCell.m */; };
+		F0607D7A1FBEDF3900EA4BCF /* HJEssenceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0607D781FBEDF3900EA4BCF /* HJEssenceCell.xib */; };
 		F06817781FA72AC7009CDFC1 /* HJFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F06817771FA72AC7009CDFC1 /* HJFastLoginView.m */; };
 		F068177A1FA72ADD009CDFC1 /* HJFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06817791FA72ADD009CDFC1 /* HJFastLoginView.xib */; };
 		F068177D1FA72C4C009CDFC1 /* HJFastBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F068177C1FA72C4C009CDFC1 /* HJFastBtn.m */; };
@@ -103,6 +105,9 @@
 		F0466E551FA6D01100987935 /* HJNewSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNewSubCell.h; sourceTree = "<group>"; };
 		F0466E561FA6D01100987935 /* HJNewSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNewSubCell.m; sourceTree = "<group>"; };
 		F0466E571FA6D01100987935 /* HJNewSubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJNewSubCell.xib; sourceTree = "<group>"; };
+		F0607D761FBEDF3900EA4BCF /* HJEssenceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJEssenceCell.h; sourceTree = "<group>"; };
+		F0607D771FBEDF3900EA4BCF /* HJEssenceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJEssenceCell.m; sourceTree = "<group>"; };
+		F0607D781FBEDF3900EA4BCF /* HJEssenceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJEssenceCell.xib; sourceTree = "<group>"; };
 		F06817761FA72AC7009CDFC1 /* HJFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFastLoginView.h; sourceTree = "<group>"; };
 		F06817771FA72AC7009CDFC1 /* HJFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFastLoginView.m; sourceTree = "<group>"; };
 		F06817791FA72ADD009CDFC1 /* HJFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJFastLoginView.xib; sourceTree = "<group>"; };
@@ -430,6 +435,9 @@
 			children = (
 				F0D2CDBB1FA999DF00109201 /* HJEssenseBtn.h */,
 				F0D2CDBC1FA999DF00109201 /* HJEssenseBtn.m */,
+				F0607D761FBEDF3900EA4BCF /* HJEssenceCell.h */,
+				F0607D771FBEDF3900EA4BCF /* HJEssenceCell.m */,
+				F0607D781FBEDF3900EA4BCF /* HJEssenceCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -689,6 +697,7 @@
 				F02D9CE91FA1B2DF004D096F /* Main.storyboard in Resources */,
 				F0466E591FA6D01100987935 /* HJNewSubCell.xib in Resources */,
 				F08B54821FA326B200230624 /* HJADVC.xib in Resources */,
+				F0607D7A1FBEDF3900EA4BCF /* HJEssenceCell.xib in Resources */,
 				F08BE8DC1FA8661E006D8F9D /* HJMeCell.xib in Resources */,
 				F068177A1FA72ADD009CDFC1 /* HJFastLoginView.xib in Resources */,
 			);
@@ -764,6 +773,7 @@
 				F0B681D61FA713320072638A /* HJRegisterLoginView.m in Sources */,
 				F08B546E1FA2D18400230624 /* UIBarButtonItem+item.m in Sources */,
 				F08B546B1FA2D15800230624 /* UIView+Frame.m in Sources */,
+				F0607D791FBEDF3900EA4BCF /* HJEssenceCell.m in Sources */,
 				F02D9D1E1FA1B324004D096F /* HJMeVC.m in Sources */,
 				F0D2CDC31FA9A33D00109201 /* HJVideoVC.m in Sources */,
 				F0466E4E1FA6CD5800987935 /* UPSHttpNetWorkTool.m in Sources */,

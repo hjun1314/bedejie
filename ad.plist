@@ -16,13 +16,13 @@
 			<key>adtd</key>
 			<integer>0</integer>
 			<key>anti_tag</key>
-			<integer>60</integer>
+			<integer>64</integer>
 			<key>bid</key>
 			<string></string>
 			<key>clklogurl</key>
 			<string></string>
 			<key>curl</key>
-			<string>http://m.baidu.com/mobads.php?000000aK9yb_296D5gsGm-2kMVrHbVdQHFqBISelUlG-VtxwAWTb8pOPhxciNPBGuhSmYX11CKQG84ylEBvr-jULdnuUyn0bbOHUBrW5iWGwYWHQFlgAyIz-t9FNjxLcVMge0YsQJBO9HNLeFRTX3FOqWYNyy9jIDdNQWG3tGw2nPEcsds.DY_iuTAMZ4RTDH5-8vc6hes_YD_TPya75y5ZGmHbeP-MBMI4Ur5u_vNtX8a9G4mLmFCR_wGY4evTyj5eZ3clMoDsMFvUQ57re-9k1QjPakkzUOZXC0.mLKGujY0uh-zTLwxIZF9uARqn1T0TvNWUv4bgLwzmyw-5HnLnjm0TLw4UANxpyfqn0KsThqvpy4WuHYY0APGIZbqrjf0mv9VujYk0ZPWpAdb5HD0TL0qnfKLUjYk0APCmy48uysqn0KdTvNzgLw4TARqn0K-XAPCmy4MuNqYXgK-5H00Uy7Ymv9xmvqbuHYs0A7bmvk9TLnqPjm0IZRqnW0srj64n6KYUHYzPW63rHb3rjf0IAfqn0KYmgcqn0K1TL0qn6KhUWd-nWf3njI-PNqWTZc0IZws5Hn0UMwYTjY10AFz5H00uANvpyP-gv-b5Hc0uZws5Hc0IgF_5y9YIZK1rBtEpgwdUhN1Qh7sTAk-QhPEUiqWUBq9TZ0Emh7GQgPGQyFdQyGGuid1pARVph-9UzdBmy3Epyf4PWcvP1n4PW60mv6q0Au8TWYs0ZP85Rnsnbfknbm1QHnkwW6VPjujnBdKfWD1QHnsnbRsnHwKfYwAwfK9IAqVgv-b5H00UyNbpy7xIZ-suHYs0A4ETjYs0Aw-I-qYTjd9TZK_uidGRA9EUhRLQjc0uAPxmLNGujY0Tvwo5Hn8PWn0TvwogLmqn6Kbmdqzug7xTAVM5yPEUi4Jpy4MUA-8uz4BTLPJ0A7WmLfqTvwo0A4-I7qYXgK-gv-b5HD0mgKxpyfqn0K9TZKGujd-nWf3njI-PfKETdqGujYkQHb8n6KBTh78ujd9TZK_ufKLmgKxmvqEpv--5fK9UhwzUv-bgv-b5fK1TL0z5H00mLwo5fKLpHYv0A7bgLnqrH9-ryRvmWfzm10YPHfzmNts0A7sTAP9IANxpyfq0ZNzU7q9TZKWmgw-gv-b5fK_mMPxpyfq0AFdTv-8ugP1gv-b5fKbpgPYTh-WI7qGujY0myPYpgu-gv7sTjY0myPYpgu-gvP9IANMULF45fKhpgF1I7qGIjY0TvNWUv4bgv-Y5fKspAq8uHYs0AP_pv7YIZ0qmv99ThI-0ZPCULTqn0KWUA-Wp1Yk0A4Y5Hc0ULKYgLw4TARqnfK9mLfqnfKkIAYqnHRknj64rjf1n0Kzm1Y0Th78p1Ys0Z6qn0KsThqb5gF1TAk9Tv60mhIYTjYs0A-vIZcqn0K-TMKWUvw-5N0zrjT40A7WIA-vmgw-5H00uZPspyfqP6K1ThPxIvbqnHm0TAPvTWYs0AI-Uhw-TWYs0A7MuHYs0APzm1Y1P1R4n00</string>
+			<string>http://m.baidu.com/mobads.php?0s0000K-ECgHOjkrGu61fAKAUlvg1OqtmVI1tfH8pMZ0vlAgEsNCaN4ZNgplEAAxmSw_cnfoi5E0gK1sT3nXLMdj2stnMSTsf_dRDnK9_pPzRktTEjI2FX4vwd1jrZvBng3mcXGjPAQ8rAQSCrTmAYoMNMO2PnMZAxtHTzCm1InOTk84bs.7D_iuTAMZ4RTDH5-8vc6hes_YD_TPya75y5ZGmHbeP-MBMI4Ur5u_vyI5gKfYt_U_DY2ycYlTqerQKMqWtDIHdBmHbeP-MBMIzs34-9h9menh1IER0.mLKGujY0uh-zTLwxIZF9uARqn1T0TvNWUv4bgLwzmyw-5HnLnjm0TLw4UANxpyfqn0KsThqvpy4WuHYY0APGIZbqrjf0mv9VujYk0ZPWpAdb5HD0TL0qnfKLUjYk0APCmy48uysqn0KdTvNzgLw4TARqn0K-XAPCmy4MuNqYXgK-5H00Uy7Ymv9xmvqbuHYs0A7bmvk9TLnqPjm0IZRqnW0srj64n6KYUHYzPW63rHb3rjf0IAfqn0KYmgcqn0K1TL0qn6KhUWd-nWf3njI-PNqWTZc0IZws5Hn0UMwYTjY10AFz5H00uANvpyP-gv-b5Hc0uZws5Hc0IgF_5y9YIZK1rBtEpgwdUhN1Qh7sTAk-QhPEUiqWUBq9TZ0Emh7GQgPGQyFdQyGGuid1pARVph-9UzdBmy3Epyf4PWcvP1n4PW60mv6q0Au8TWYs0ZP85Rnsnbfknbm1QHnkwW6VPjujnBdKfWD1QHnsnbRsnHwKfYwAwfK9IAqVgv-b5H00UyNbpy7xIZ-suHYs0A4ETjYs0Aw-I-qYTjd9TZK_uidGRA9EUhRLQjc0uAPxmLNGujY0Tvwo5Hn8PWn0TvwogLmqn6Kbmdqzug7xTAVM5yPEUi4Jpy4MUA-8uz4BTLPJ0A7WmLfqTvwo0A4-I7qYXgK-gv-b5HD0mgKxpyfqn0K9TZKGujd-nWf3njI-PfKETdqGujYkQHb8n6KBTh78ujd9TZK_ufKLmgKxmvqEpv--5fK9UhwzUv-bgv-b5fK1TL0z5H00mLwo5fKLpHYv0A7bgLnqmyfdrjm1uW6vPymLPWN-u7ts0A7sTAP9IANxpyfq0ZNzU7q9TZKWmgw-gv-b5fK_mMPxpyfq0AFdTv-8ugP1gv-b5fKbpgPYTh-WI7qGujY0myPYpgu-gv7sTjY0myPYpgu-gvP9IANMULF45fKhpgF1I7qGIjY0TvNWUv4bgv-Y5fKspAq8uHYs0AP_pv7YIZ0qmv99ThI-0ZPCULTqn0KWUA-Wp1Yk0A4Y5Hc0ULKYgLw4TARqnfK9mLfqnfKkIAYqnHRknHDvnHn1P0Kzm1Y0Th78p1Ys0Z6qn0KsThqb5gF1TAk9Tv60mhIYTjYs0A-vIZcqn0K-TMKWUvw-5N0zrjT40A7WIA-vmgw-5H00uZPspyfqP6K1ThPxIvbqnHm0TAPvTWYs0AI-Uhw-TWYs0A7MuHYs0APzm1YYPW60</string>
 			<key>desc</key>
 			<string> </string>
 			<key>dur</key>
@@ -32,9 +32,9 @@
 			<key>fwt</key>
 			<integer>2</integer>
 			<key>h</key>
-			<integer>800</integer>
+			<integer>1280</integer>
 			<key>id</key>
-			<integer>8348813</integer>
+			<integer>8348806</integer>
 			<key>iv</key>
 			<integer>0</integer>
 			<key>lb_phone</key>
@@ -42,7 +42,7 @@
 			<key>mimetype</key>
 			<string>image/jpg</string>
 			<key>ori_curl</key>
-			<string>http://jump.luna.58.com/r?cate=zhuce&amp;spm=e24807e5.8348813&amp;utm_source=sem-baidu-qiushi</string>
+			<string>http://jump.luna.58.com/r?cate=zhuce&amp;spm=e24807e5.8348806&amp;utm_source=sem-baidu-qiushi</string>
 			<key>phone</key>
 			<string></string>
 			<key>pict</key>
@@ -50,7 +50,7 @@
 			<key>pk</key>
 			<string></string>
 			<key>qk</key>
-			<string>007f648d98e9e6b42c04542a</string>
+			<string>007f6486ad5863f865f765ed</string>
 			<key>sb</key>
 			<integer>0</integer>
 			<key>sk</key>
@@ -76,15 +76,15 @@
 			<key>type</key>
 			<string>image</string>
 			<key>w</key>
-			<integer>480</integer>
+			<integer>720</integer>
 			<key>w_picurl</key>
-			<string>http://ubmcmm.baidustatic.com/media/v1/0f000Zj2VKZ2qBk_irPKk6.jpg</string>
+			<string>http://ubmcmm.baidustatic.com/media/v1/0f0000-iDLf2Z_mVIWWQDs.jpg</string>
 			<key>wb</key>
 			<string></string>
 			<key>wi</key>
 			<integer>1</integer>
 			<key>winurl</key>
-			<string>http://wn.pos.baidu.com/adx.php?c=d25pZD05OGU5ZTZiNDJjMDQ1NDJhXzAAcz05OGU5ZTZiNDJjMDQ1NDJhAHQ9MTUxMDg5ODQzMABzZT0yAGJ1PTgAcHJpY2U9V2c1Nl9nQUpaWFY3akVwZ1c1SUE4aGlJdUpzTU9KaWI5dmFqWkEAY2hhcmdlX3ByaWNlPTQ1NQBzaGFyaW5nX3ByaWNlPTQ1NTAwMAB3aW5fZHNwPTgAY2htZD0xAGJkaWQ9AGNwcm9pZD0Ad2Q9ODM0ODgxMwBwb3M9MABiY2htZD0wAHY9MQBpPTNkMWQyZWZl&amp;ext=cHJpY2U9OTUmcGxhbmlkPTI4MTM0MA</string>
+			<string>http://wn.pos.baidu.com/adx.php?c=d25pZD1hZDU4NjNmODY1Zjc2NWVkXzAAcz1hZDU4NjNmODY1Zjc2NWVkAHQ9MTUxMTE2MTMzNABzZT0yAGJ1PTgAcHJpY2U9V2hKOTlnQU5RVVY3akVwZ1c1SUE4clBveUlJc0ttakhYcjJxY0EAY2hhcmdlX3ByaWNlPTU3OQBzaGFyaW5nX3ByaWNlPTU3OTAwMAB3aW5fZHNwPTgAY2htZD0xAGJkaWQ9AGNwcm9pZD0Ad2Q9ODM0ODgwNgBwb3M9MABiY2htZD0wAHY9MQBpPTAwOTI1NmUy&amp;ext=cHJpY2U9MTEzJnBsYW5pZD0yODEzNDA</string>
 		</dict>
 	</array>
 	<key>city</key>

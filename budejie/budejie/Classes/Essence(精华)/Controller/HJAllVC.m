@@ -8,6 +8,7 @@
 
 #import "HJAllVC.h"
 #import "HJEssenceModel.h"
+#import "HJEssenceCell.h"
 @interface HJAllVC (){
     CGFloat _contentOffsetY;//上次的offset
     CGFloat _contentOffsetSpeed;//与上次的滚差，用于判断速度
@@ -15,6 +16,8 @@
 }
 @property (nonatomic,strong)NSMutableArray *topic;
 
+/** 当前最后一条帖子数据的描述信息，专门用来加载下一页数据 */
+@property (nonatomic, copy) NSString *maxtime;
 @end
 
 @implementation HJAllVC
@@ -26,7 +29,11 @@
     ///加c
     self.tableView.contentInset = UIEdgeInsetsMake(TitlesViewH , 0, TabBarH, 0);
     self.tableView.scrollIndicatorInsets = self.tableView.contentInset;
-
+    self.tableView.rowHeight = 200;
+    
+    UINib *nib = [UINib nibWithNibName:NSStringFromClass([HJEssenceCell class]) bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"HJTopicCellId"];
+    
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(didClickTitleBtn) name:didTitleBtn object:nil];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(didClickTabbarBtn) name:didTabbarBtn object:nil];
    
@@ -34,20 +41,20 @@
     [self.tableView.mj_header beginRefreshing];
    //self.tableView.mj_header.automaticallyChangeAlpha = YES;
     self.tableView.mj_footer = [MJRefreshAutoFooter footerWithRefreshingTarget:self refreshingAction:@selector(refreshDown)];
-
+//    [self.tableView.mj_footer beginRefreshing];
 }
 
 #pragma mark- 刷新
 ///下拉刷新
 - (void)refreshUP{
     [self.tableView.mj_footer endRefreshing];
-    [self loadEssenceData];
+    [self loadEssenceDataUP];
 
 }
 
 ///上拉加载
 - (void)refreshDown{
-    
+    [self loadEssenceDataDown];
 }
 
 #pragma mark- 点击titleBtn 和 tabbar
@@ -62,7 +69,7 @@
     if (self.tableView.scrollsToTop == NO) {
         return;
     }
-
+    [self refreshUP];
 }
 - (void)didClickTabbarBtn{
     //    if (重复点击的不是精华按钮) return;
@@ -80,7 +87,7 @@
     [[NSNotificationCenter defaultCenter]removeObserver:self];
 }
 #pragma mark- 加载数据
-- (void)loadEssenceData{
+- (void)loadEssenceDataUP{
     
     // 2.拼接参数
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
@@ -99,7 +106,36 @@
     
     
 }
+- (void)loadEssenceDataDown{
+    
+    // 2.拼接参数
+    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+    parameters[@"a"] = @"list";
+    parameters[@"c"] = @"data";
+    parameters[@"type"] = @"31";
+    parameters[@"maxtime"] = self.maxtime;
+    
+    [[UPSHttpNetWorkTool sharedApi]GET:BaseURL params:parameters success:^(NSURLSessionDataTask *task, id responseObject) {
+        self.maxtime = responseObject[@"info"][@"maxtime"];
+        
+        NSArray *moreTopices = [HJEssenceModel mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        ///累加到旧数组的后面
+        [self.topic addObjectsFromArray:moreTopices];
+        
+        [self.tableView reloadData];
+        
+        [self.tableView.mj_footer beginRefreshing];
+        
+        
+    } fail:^(NSURLSessionDataTask *task, NSError *error) {
+        if (error.code != NSURLErrorCancelled) { // 并非是取消任务导致的error，其他网络问题导致的error
+            [SVProgressHUD showErrorWithStatus:@"网络繁忙，请稍后再试！"];
+        }
+        [self.tableView.mj_footer endRefreshing];
 
+    }];
+    
+}
 #pragma mark - Table view data source
 
 
@@ -110,16 +146,10 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *ID = @"cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
-        cell.backgroundColor = [UIColor clearColor];
-    }
-    HJEssenceModel *model = self.topic[indexPath.row];
-    cell.textLabel.text = model.name;
-    cell.detailTextLabel.text = model.text;
-
+    
+    HJEssenceCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HJTopicCellId"];
+    cell.model = self.topic[indexPath.row];
+   
     
     return cell;
 
